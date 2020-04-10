@@ -1,0 +1,22 @@
+changed tables
+removed unneeded columns
+added autoincrement to users table + ideas to autogenerate unique ID
+changed ideas table CreationDate datatype to TIMESTAMP
+added datetimestamp to database to AUTO add creationdate
+removed documentID from ideas table  (use link in document table with postID and documenID not needed in ideas table)
+dropped commentCound from Ideas table.  (Not needed can generate comment count at runtime?) 
+dropped PostVotes table
+added Votes table to link user to post and boolean for thumbs up/down
+dropped table VotesType ?? unsure what this would be used for ?
+dropped tbale Status.  unsure why youd need to define active and inactive in a table when the status is linked to the user?
+changed commentID in comment table to AutoIncrement PK 
+dropped downvotecount and upvotecount in ideas table.  uneeded data can grab at runtime
+added date field to comments table to store date of comment
+
+added logout button to web front end
+worked on joins to grav data from multile tables
+
+added email when new idea is submit to arbind and Sids university emails
+added validation to accept terms and conditions before submit
+changed data types of mysql tables
+
